@@ -162,7 +162,7 @@ def create_acc(region, name_prefix):
 
     url = "https://100067.connect.garena.com/oauth/guest/register"
     headers = {
-        "User-Agent": "GarenaMSDK/4.0.19P8(ASUS_Z01QD ;Android 12;en;US;)",
+        "User-Agent": "GarenaMSDK/4.0.19P8(Samsung SM-G998B ;Android 13;en;US;)",
         "Authorization": "Signature " + signature,
         "Content-Type": "application/x-www-form-urlencoded",
         "Accept-Encoding": "gzip",
@@ -188,7 +188,7 @@ def token(uid, password, region, name_prefix):
         "Connection": "Keep-Alive",
         "Content-Type": "application/x-www-form-urlencoded",
         "Host": "100067.connect.garena.com",
-        "User-Agent": "GarenaMSDK/4.0.19P8(ASUS_Z01QD ;Android 12;en;US;)",
+        "User-Agent": "GarenaMSDK/4.0.19P8(Samsung SM-G998B ;Android 13;en;US;)",
     }
 
     body = {
@@ -251,7 +251,7 @@ def Major_Regsiter(access_token, open_id, field, uid, password, region, name_pre
         "Expect": "100-continue",
         "Host": "loginbp.ggblueshark.com",
         "ReleaseVersion": "OB53",
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 9; ASUS_I005DA Build/PI)",
+        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 12; Pixel 6 Build/SD1A.210817.036)",
         "X-GA": "v1 1",
         "X-Unity-Version": "2018.4.11f1"
     }
@@ -284,7 +284,7 @@ def Major_Regsiter(access_token, open_id, field, uid, password, region, name_pre
 def chooseregion(data_bytes, jwt_token):
     url = "https://loginbp.ggblueshark.com/ChooseRegion"
     headers = {
-        'User-Agent': "Dalvik/2.1.0 (Linux; U; Android 12; M2101K7AG Build/SKQ1.210908.001)",
+        'User-Agent': "Dalvik/2.1.0 (Linux; U; Android 11; SM-G998B Build/RP1A.200720.012)",
         'Connection': "Keep-Alive",
         'Accept-Encoding': "gzip",
         'Content-Type': "application/x-www-form-urlencoded",
@@ -315,7 +315,7 @@ def login(uid, password, access_token, open_id, response_hex, status_code, name,
         "Expect": "100-continue",
         "Host": "loginbp.ggblueshark.com",
         "ReleaseVersion": "OB53",
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 9; ASUS_I005DA Build/PI)",
+        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 12; Pixel 6 Build/SD1A.210817.036)",
         "X-GA": "v1 1",
         "X-Unity-Version": "2018.4.11f1"
     }
@@ -393,7 +393,7 @@ def login_server(uid, password, access_token, open_id, response, status_code, na
         "Expect": "100-continue",
         "Host": "loginbp.ggblueshark.com",
         "ReleaseVersion": "OB53",
-        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 9; ASUS_I005DA Build/PI)",
+        "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 12; Pixel 6 Build/SD1A.210817.036)",
         "X-GA": "v1 1",
         "X-Unity-Version": "2018.4.11f1"
     }
@@ -476,7 +476,7 @@ def GET_LOGIN_DATA(JWT_TOKEN, PAYLOAD, region):
         'X-GA': 'v1 1',
         'ReleaseVersion': 'OB53',
         'Content-Type': 'application/x-www-form-urlencoded',
-        'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 10; G011A Build/PI)',
+        'User-Agent': 'Dalvik/2.1.0 (Linux; U; Android 10; Mi 10 Pro Build/QKQ1.191117.002)',
         'Host': 'clientbp.common.ggblueshark.com',
         'Connection': 'close',
         'Accept-Encoding': 'gzip, deflate, br',
